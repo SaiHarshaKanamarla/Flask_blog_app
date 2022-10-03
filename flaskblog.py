@@ -1,6 +1,6 @@
 from flask import Flask
 # flask package to render template in routes..to render static pages essentially
-from flask import render_template
+from flask import render_template, url_for
 
 posts = [
     {
